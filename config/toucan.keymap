@@ -17,6 +17,55 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        COMBO_BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+
+        COMBO_DEL {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        COMBO_TAB {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        COMBO_SPACE {
+            bindings = <&kp SPACE>;
+            key-positions = <13 14>;
+        };
+
+        COMBO_SCR_LEFT {
+            bindings = <&kp LG(LC(LEFT))>;
+            key-positions = <14 15>;
+        };
+
+        COMBO_SCR_RIGHT {
+            bindings = <&kp LG(LC(RIGHT))>;
+            key-positions = <15 16>;
+        };
+
+        COMBO_WIN_TAB {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <14 16>;
+        };
+
+        COMBO_ALT_TAB {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <2 3>;
+        };
+
+        COMBO_RALT_TAB {
+            bindings = <&kp LA(LS(TAB))>;
+            key-positions = <3 4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -44,7 +93,7 @@
         adj {
             display-name = "ADJ";
             bindings = <
-&mo TAB  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_DN  &kp HOME  &kp UP_ARROW  &kp END  &trans  &kp BSPC  &kp LCTRL  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &bt LSHFT  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &kp LGUI  &mo NAV  &kp SPACE  &kp RET  &mo 2  &kp RALT
+&mo TAB  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp C_VOL_DN  &kp HOME  &kp UP_ARROW  &kp END  &trans  &kp BSPC  &kp LCTRL  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &bt LSHFT  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &kp LGUI  &mo 2  &kp SPACE  &kp RET  &mo 1  &kp RALT
             >;
         };
 
