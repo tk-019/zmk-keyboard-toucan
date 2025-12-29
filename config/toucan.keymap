@@ -69,6 +69,11 @@
             bindings = <&kp MINUS>;
             key-positions = <10 9>;
         };
+
+        COMBO_ENTER {
+            bindings = <&kp ENTER>;
+            key-positions = <22 21>;
+        };
     };
 
     behaviors {
