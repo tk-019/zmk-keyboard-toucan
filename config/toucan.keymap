@@ -56,7 +56,7 @@
         };
 
         COMBO_ALT_TAB {
-            bindings = <&swapper>;  // 元: <&kp LA(TAB)>
+            bindings = <&kp LA(TAB)>
             key-positions = <2 3>;
         };
 
