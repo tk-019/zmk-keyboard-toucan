@@ -93,7 +93,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &yen_under  &kp LGUI  &lt 2 LANG_HANJA  &mt LSHIFT SPACE  &mt RIGHT_ALT SPACE  &lt 1 LANG_HANGEUL  &kp ENTER
+&kp ESCAPE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &yen_under  &kp LGUI  &lt 2 LANG_HANJA  &mt LSHIFT SPACE  &mt RIGHT_ALT SPACE  &lt 1 LANG_HANGEUL  &lt 4 ENTER
             >;
         };
 
@@ -115,6 +115,12 @@
             display-name = "ADJ";
             bindings = <
 &kp TAB  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp HOME  &kp UP_ARROW  &kp END  &trans  &kp BSPC  &kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_VOLUME_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &kp LGUI  &mo 2  &kp LSHFT  &kp RET  &mo 1  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
