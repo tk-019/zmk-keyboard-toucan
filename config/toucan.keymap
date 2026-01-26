@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -73,6 +74,31 @@
         COMBO_ENTER {
             bindings = <&kp ENTER>;
             key-positions = <22 21>;
+        };
+
+        COMBO_LEFT_MB {
+            bindings = <&mkp LCLK>;
+            key-positions = <26 27>;
+        };
+
+        COMBO_RIGHT_MB {
+            bindings = <&mkp RCLK>;
+            key-positions = <28 27>;
+        };
+
+        COMBO_MID_MB {
+            bindings = <&mkp MCLK>;
+            key-positions = <26 28>;
+        };
+
+        COMBO_MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <25 26>;
+        };
+
+        COMBO_MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <28 29>;
         };
     };
 
