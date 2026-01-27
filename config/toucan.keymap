@@ -41,31 +41,6 @@
             key-positions = <13 14>;
         };
 
-        COMBO_SCR_LEFT {
-            bindings = <&kp LG(LC(LEFT))>;
-            key-positions = <14 15>;
-        };
-
-        COMBO_SCR_RIGHT {
-            bindings = <&kp LG(LC(RIGHT))>;
-            key-positions = <15 16>;
-        };
-
-        COMBO_WIN_TAB {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <14 16>;
-        };
-
-        COMBO_ALT_TAB {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <2 3>;
-        };
-
-        COMBO_RALT_TAB {
-            bindings = <&kp LA(LS(TAB))>;
-            key-positions = <3 4>;
-        };
-
         COMBO_hyphen {
             bindings = <&kp MINUS>;
             key-positions = <10 9>;
@@ -78,27 +53,27 @@
 
         COMBO_LEFT_MB {
             bindings = <&mkp LCLK>;
-            key-positions = <26 27>;
+            key-positions = <14 15>;
         };
 
         COMBO_RIGHT_MB {
             bindings = <&mkp RCLK>;
-            key-positions = <28 27>;
+            key-positions = <15 16>;
         };
 
         COMBO_MID_MB {
             bindings = <&mkp MCLK>;
-            key-positions = <26 28>;
+            key-positions = <14 16>;
         };
 
         COMBO_MB1 {
             bindings = <&mkp MB1>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
         };
 
         COMBO_MB2 {
             bindings = <&mkp MB2>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
         };
     };
 
@@ -119,7 +94,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp LEFT_ALT  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp COLON  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &yen_under  &kp LGUI  &lt 2 LANG_HANJA  &kp LSHIFT  &kp SPACE  &lt 1 LANG_HANGEUL  &lt 4 ENTER
+&kp LEFT_ALT  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &yen_under  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp COLON  &kp ESC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &lt 2 LANG_HANJA  &kp LSHIFT  &kp SPACE  &lt 1 LANG_HANGEUL  &lt 4 ENTER
             >;
         };
 
