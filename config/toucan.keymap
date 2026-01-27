@@ -67,12 +67,12 @@
         };
 
         COMBO_MB1 {
-            bindings = <&mkp MB1>;
+            bindings = <&mkp MB4>;
             key-positions = <26 27>;
         };
 
         COMBO_MB2 {
-            bindings = <&mkp MB2>;
+            bindings = <&mkp MB5>;
             key-positions = <28 27>;
         };
 
@@ -92,12 +92,12 @@
         };
 
         COMBO_MB1_LEFT {
-            bindings = <&mkp MB1>;
+            bindings = <&mkp MB4>;
             key-positions = <31 32>;
         };
 
         COMBO_MB2_LEFT {
-            bindings = <&mkp MB2>;
+            bindings = <&mkp MB5>;
             key-positions = <32 33>;
         };
     };
