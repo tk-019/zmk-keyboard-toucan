@@ -113,6 +113,15 @@
         };
     };
 
+    macros {
+        hash: hash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LSHIFT &kp NUMBER_3 &kt LSHFT>;
+            label = "HASH";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -133,7 +142,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp EXCL  &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LPAR  &kp RPAR  &kp AT  &kp BSPC  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp EXCL  &kp DOUBLE_QUOTES  &kp KP_N3  &kp DLLR  &kp PRCNT  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LPAR  &kp RPAR  &kp AT  &kp BSPC  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
