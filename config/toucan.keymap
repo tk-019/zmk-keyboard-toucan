@@ -48,7 +48,7 @@
 
         COMBO_ENTER {
             bindings = <&kp ENTER>;
-            key-positions = <21 20>;
+            key-positions = <21 22>;
         };
 
         COMBO_LEFT_MB {
@@ -74,6 +74,31 @@
         COMBO_MB2 {
             bindings = <&mkp MB2>;
             key-positions = <28 27>;
+        };
+
+        COMBO_MC1_LEFT {
+            bindings = <&mkp LCLK>;
+            key-positions = <19 20>;
+        };
+
+        COMBO_MC2_LEFT {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
+        };
+
+        COMBO_MC3_LEFT {
+            bindings = <&mkp MCLK>;
+            key-positions = <19 21>;
+        };
+
+        COMBO_MB1_LEFT {
+            bindings = <&mkp MB1>;
+            key-positions = <31 32>;
+        };
+
+        COMBO_MB2_LEFT {
+            bindings = <&mkp MB2>;
+            key-positions = <32 33>;
         };
     };
 
