@@ -155,7 +155,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans  &kp HOME  &kp UP_ARROW  &kp END  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT  &kp UP_ARROW  &trans  &trans  &trans  &trans  &kp HOME  &kp UP_ARROW  &kp END  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
