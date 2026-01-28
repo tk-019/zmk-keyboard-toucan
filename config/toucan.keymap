@@ -121,7 +121,7 @@
             key-positions = <3 4>;
         };
 
-        COMBO_INT1_UNSER {
+        COMBO_INT1_UNDER {
             bindings = <&kp INTERNATIONAL_1>;
             key-positions = <34 35>;
         };
