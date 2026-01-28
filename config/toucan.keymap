@@ -120,6 +120,11 @@
             bindings = <&kp F2>;
             key-positions = <3 4>;
         };
+
+        COMBO_INT3_pipe {
+            bindings = <&kp INTERNATIONAL_3>;
+            key-positions = <34 35>;
+        };
     };
 
     behaviors {
