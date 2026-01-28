@@ -125,6 +125,11 @@
             bindings = <&kp INTERNATIONAL_1>;
             key-positions = <32 33>;
         };
+
+        COMBO_MENU {
+            bindings = <&kp K_MENU>;
+            key-positions = <19 21>;
+        };
     };
 
     behaviors {
