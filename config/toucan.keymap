@@ -127,7 +127,7 @@
         };
 
         COMBO_MENU {
-            bindings = <&kp K_MENU>;
+            bindings = <&kp K_CONTEXT_MENU>;
             key-positions = <19 21>;
         };
     };
